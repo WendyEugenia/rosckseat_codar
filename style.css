@@ -82,18 +82,18 @@ body * {
 }
 
 
-#switch span{
+#switch span {
     display: block;
     width: 64px;
     height: 24px;
     background: var(--surface-color);
     border: 1px solid var(--stroke-color);
     backdrop-filter: blur(4px);
-    --webkit-backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
     border-radius: 9999px;
 }
 
-
+/* links */
 ul {
     list-style: none;
   
