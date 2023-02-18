@@ -5,9 +5,9 @@ function toggleMode(){
     const img = document.querySelector('#profile img')
 
     if(html.classList.contains('light')){
-        img.setAttribute('src', './assests/Avatar-light.png',)
+        img.setAttribute('src', './assets/Avatar-light.png',)
     } else {
-        img.setAttribute('src', './assests/Avatar.png',)
+        img.setAttribute('src', './assets/Avatar.png',)
     }
 
    // html.classList.toggle('light') //toggle faz a troca se achou ou não
